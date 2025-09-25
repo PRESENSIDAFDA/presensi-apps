@@ -6,5 +6,5 @@ export const firebaseConfig = {
   storageBucket: "presensidafda.firebasestorage.app",
   messagingSenderId: "842394310394",
   appId: "1:842394310394:web:14cffa2de9f2f0fc89db43"
-  measurementId: "G-Z3NW8G4Z32"
 };
+
