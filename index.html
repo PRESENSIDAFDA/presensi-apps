@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Presensi Online</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase -->
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Presensi Online</h2>
+    <div id="authDiv">
+      <input id="email" placeholder="Email">
+      <input id="password" type="password" placeholder="Password">
+      <button id="loginBtn">Login</button>
+      <button id="registerBtn">Register</button>
+    </div>
+
+    <div id="mainDiv" style="display:none;">
+      <p id="userEmail"></p>
+      <video id="video" autoplay playsinline></video>
+      <canvas id="canvas" style="display:none;"></canvas>
+      <button id="datangBtn">Presensi Datang</button>
+      <button id="pulangBtn">Presensi Pulang</button>
+      <button id="logoutBtn">Logout</button>
+    </div>
+  </div>
+</body>
+</html>

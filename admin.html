@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Admin Presensi</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="admin.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Dashboard Admin</h2>
+    <div id="loginAdmin">
+      <input id="adminEmail" placeholder="Admin Email">
+      <input id="adminPass" type="password" placeholder="Password">
+      <button id="loginAdminBtn">Login</button>
+    </div>
+
+    <div id="adminPanel" style="display:none;">
+      <button id="downloadCsvBtn">Download CSV</button>
+      <table border="1" id="presensiTable">
+        <thead>
+          <tr>
+            <th>User</th><th>Tanggal</th>
+            <th>Datang Time</th><th>Datang Loc</th>
+            <th>Pulang Time</th><th>Pulang Loc</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+      <button id="logoutAdminBtn">Logout</button>
+    </div>
+  </div>
+</body>
+</html>
